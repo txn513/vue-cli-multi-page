@@ -18,7 +18,7 @@
 				</div>
 				<div class="inputmain">
 					<div class="logobox textcenter">
-						<img class="logo" :src="logo"/>
+						<img class="logo" src="./img/icon_i9.png" height="40" width="40"/>
 					</div>
 					
 					<div v-if="loginerror" class="font12 loginerror LRShake">
@@ -74,7 +74,7 @@ export default {
   data() {
     return {
     	appname:Lib.C.appname,
-    	logo:Lib.C.logo,
+    	logo:'./img/test.jpg',
     	user:{
     		UserName:'lanchenglv.com',
     		PassWord:'lanchenglv.com'
