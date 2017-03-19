@@ -3,8 +3,8 @@ var path = require('path')
 
 module.exports = {
   build: {
-    index: path.resolve(__dirname, 'dist/index.html'),
-    assetsRoot: path.resolve(__dirname, 'dist'),
+    index: path.resolve(__dirname, 'viking/index.html'),
+    assetsRoot: path.resolve(__dirname, 'viking'),
     assetsSubDirectory: 'js',
     assetsPublicPath: process.env.NODE_ENV === 'production' ? './' : '/',
     productionSourceMap: true
