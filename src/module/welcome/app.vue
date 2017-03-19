@@ -2,6 +2,7 @@
 <div>
 
 <module-head title="组件 header"></module-head>	
+<calendar></calendar>
 
 <div>
 	<ul class="listbox">
@@ -79,6 +80,9 @@
 import Lib from 'assets/Lib.js'
 
 import moduleHead from 'components/module-head'
+import calendar from 'components/Calendar'
+
+
 
 export default {
   data() {
@@ -87,7 +91,7 @@ export default {
     }
   },
   components: {
-	moduleHead
+	moduleHead,calendar
   },
   ready(){
   	
